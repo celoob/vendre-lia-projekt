@@ -1,7 +1,15 @@
-# Vue 3 + Vite
+# Vendre LIA projekt
+## Kravställning:
+KODUPPGIFT
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+På vår hemsida vill vi visa en lista över våra anställda (dummydata). Data kan hittas på följande slutpunkt: https://reqres.in/api/users
+Bonuspoäng om du lägger till paginering enligt hur api:n fungerar.
+För att få sida2: https://reqres.in/api/users?page=2
 
-## Recommended IDE Setup
+Dessa är några måsten enligt designteamet:
+- ✅ Runda profilbilder
+- ✅ Namnet, följt av en kontaktlänk som leder till de anställdas e-postadress (?)
+- ✅ Responsiv design
+- ✅ Utöver det kan du designa sidan hur du vill
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+👉 Vi vill att du använder Vue som ramverk.✅
