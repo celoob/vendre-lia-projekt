@@ -101,8 +101,4 @@
   };
 </script>
 
-<style scoped>
-  .active {
-    padding: 10px;
-  }
-</style>
+<style scoped></style>

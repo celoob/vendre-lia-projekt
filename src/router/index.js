@@ -13,7 +13,6 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
   linkActiveClass: 'active',
-  // prevent skipping when changing pages (doesnt work in the browser inspector)
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;

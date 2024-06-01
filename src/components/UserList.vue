@@ -3,11 +3,7 @@
     <ul
       class="grid grid-cols-1 grid-rows-6 lg:grid-cols-2 lg:grid-rows-3 lg:justify-self-center text-dark bg-white w-[96vw] lg:w-[48rem] lg:h-[26rem] lg:p-4 my-4 rounded-2xl"
     >
-      <li
-        v-for="user in users"
-        :key="user.id"
-        class="flex p-2 m-2 gap-6 items-center"
-      >
+      <li v-for="user in users" :key="user.id" class="flex p-2 m-2 gap-6">
         <img
           :src="user.avatar"
           :alt="user.first_name"
@@ -148,7 +144,7 @@
             user.copied = true;
             setTimeout(() => {
               user.copied = false;
-            }, 2000); // Reset the icon after 2 seconds
+            }, 2000);
           });
         }
       },
@@ -188,7 +184,7 @@
     font-size: 0.9rem;
     transition: opacity 0.3s ease-in-out;
     position: absolute;
-    bottom: 125%; /* Position above the button */
+    bottom: 125%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #000000bb;
